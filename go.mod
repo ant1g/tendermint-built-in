@@ -9,6 +9,9 @@ require (
 	github.com/tendermint/tendermint v0.35.0
 )
 
+// To test against a patched version of the repo:
+// replace github.com/tendermint/tendermint => github.com/ant1g/tendermint v0.35.1
+
 require (
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
 	github.com/DataDog/zstd v1.4.1 // indirect
